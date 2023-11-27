@@ -64,4 +64,4 @@ All audio recordings are property of Siminchikkunarayku and [Llamacha](https://l
 
 ## Acknowledgements
 
-This work has been funded by AmericasNLP-2022 and Llamacha. Special thanks to John Ortega for his support.
+This work has been funded by AmericasNLP-2022 and Llamacha. Special thanks to Eva Mühlbauer for his support.
