@@ -15,6 +15,25 @@ True-cased Spanish target translations are found in `que_spa_clean/<split>/txt/<
 True-casing was done with a [sacremoses](https://github.com/alvations/sacremoses) Truecaser model trained on the Spanish side of WMT13 EN-ES.
 
 
+## Additional Audio data
+
+In addition to the 1 hour, 40 minutes of Quechua audio data aligned with Spanish translations, we also provided participants with a corpus of 48 hours of fully transcribed Quechua audio. All of this data comes from the filter Siminchik corpus  [link](https://drive.google.com/drive/folders/1rkGQwwgu5UdTZc-z56UCdYSOdVyOTtC4?usp=sharing).
+
+Participants are not required to use any of this data.
+
+## Citation 
+
+```
+@article{cardenas2018siminchik,
+  title={Siminchik: A speech corpus for preservation of southern quechua},
+  author={Cardenas, Ronald and Zevallos, Rodolfo and Baquerizo, Reynaldo and Camacho, Luis},
+  journal={ISI-NLP 2},
+  pages={21},
+  year={2018}
+}
+```
+
+
 ## Additional Parallel Text data
 
 As part of the constrained task, we allow parallel text from previous work.
