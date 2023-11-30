@@ -4,42 +4,15 @@ Repository for sharing the data in the Quechua language, one of the languages fo
 
 ## Parallel data
 
-This corpus is a small fraction of the Huqariq corpus [(Zevallos et al., 2022)](https://arxiv.org/abs/2207.05498) translated into Spanish. It comprises 1 hour, 40 minutes of clean speech in Quechua, translated into Spanish (que_spa_clean). This version contains a validation and test data set.
+This corpus is the Spanish translation of the Huqariq corpus [(Zevallos et al., 2022)](https://arxiv.org/abs/2207.05498). It comprises 51 hours, 16 minutes of clean speech in Quechua, translated into Spanish (que_spa_clean). This version contains a validation and test dataset.
+
+The audio files are located in [link](https://drive.google.com/drive/folders/1Ne1cMvWSUnLzxeksT2OnOJSiPNBhuC7E?usp=sharing)
 
 The raw text transcriptions are located in `que_spa_clean/<split>/txt/<split>.<lang>`.
 
 True-cased Spanish target translations are found in `que_spa_clean/<split>/txt/<split>.spa.tc`.
 
 True-casing was done with a [sacremoses](https://github.com/alvations/sacremoses) Truecaser model trained on the Spanish side of WMT13 EN-ES.
-
-## Additional Audio data
-
-In addition to the 1 hour, 40 minutes of Quechua audio data aligned with Spanish translations, we also provided participants with a corpus of 60 hours of fully transcribed Quechua audio. All of this data comes from the Siminchik corpus.
-
-Participants are not required to use any of this data.
-
-Due to their size, this data is made available through this website.
-
-## Citation 
-
-```
-@article{zevallos2022huqariq,
-  title={Huqariq: A Multilingual Speech Corpus of Native Languages of Peru for Speech Recognition},
-  author={Zevallos, Rodolfo and Camacho, Luis and Melgarejo, Nelsi},
-  journal={arXiv preprint arXiv:2207.05498},
-  year={2022}
-}
-```
-
-```
-@article{cardenas2018siminchik,
-  title={Siminchik: A speech corpus for preservation of southern quechua},
-  author={Cardenas, Ronald and Zevallos, Rodolfo and Baquerizo, Reynaldo and Camacho, Luis},
-  journal={ISI-NLP 2},
-  pages={21},
-  year={2018}
-}
-```
 
 
 ## Additional Parallel Text data
