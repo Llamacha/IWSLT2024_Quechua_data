@@ -4,7 +4,7 @@ Repository for sharing the data in the Quechua language, one of the languages fo
 
 ## Parallel data
 
-This corpus is the Spanish translation of the Huqariq corpus [(Zevallos et al., 2022)](https://arxiv.org/abs/2207.05498). It comprises 51 hours, 16 minutes of clean speech in Quechua, translated into Spanish (que_spa_clean). This version contains a validation and test dataset.
+This corpus is the Spanish translation of the Siminchik  and Huqariq corpus [(Zevallos et al., 2022)](https://arxiv.org/abs/2207.05498). It comprises 51 hours, 16 minutes of clean speech in Quechua, translated into Spanish (que_spa_clean). This version contains a validation and test dataset.
 
 The audio files are located in [link](https://drive.google.com/drive/folders/1Ne1cMvWSUnLzxeksT2OnOJSiPNBhuC7E?usp=sharing)
 
