@@ -13,7 +13,7 @@ True-cased Spanish target translations are found in `que_spa_clean_siminchik_fil
 
 True-casing was done with a [sacremoses](https://github.com/alvations/sacremoses) Truecaser model trained on the Spanish side of WMT13 EN-ES.
 
-In addition, we are making available a new corpus. This corpus is the Spanish translation of the Siminchik and Huqariq corpus [(Zevallos et al., 2022)](https://arxiv.org/abs/2207.05498). It comprises 51 hours, 16 minutes of clean speech in Quechua, translated into Spanish (que_spa_clean_siminchik_huqariq). This version contains a validation and test dataset. The audio files are located in [link].
+In addition, we are making available a new corpus. This corpus is the Spanish translation of the Siminchik and Huqariq corpus [(Zevallos et al., 2022)](https://arxiv.org/abs/2207.05498). It comprises 51 hours, 16 minutes of clean speech in Quechua, translated into Spanish (que_spa_clean_siminchik_huqariq). This version contains a validation and test dataset. The audio files are located in [link](https://github.com/Llamacha/quechua_spanish_speech_translation_corpus).
 
 
 ## Additional Audio data
