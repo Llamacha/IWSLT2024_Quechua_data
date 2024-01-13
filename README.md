@@ -22,7 +22,7 @@ task. The audio data and corresponding transcriptions are a bigger extract from 
 this data can be directly used for assistance in the development of speech recognition components for the `unconstrained`
 task.  The data can be easily downloaded directly fron here:  [Unconstrained QUE-SPA Additional Audio 1](https://drive.google.com/file/d/1ZwBE5LlwCHJaxkAw2IM97hkh-NFO-k0C/view?usp=sharing).
 
-Please Note: Participants are not required to use this data but are free to use with the license below.
+*Please Note*: Participants are not required to use this data but are free to use with the license below.
 
 
 ## Additional audio data `with translations` for the `unconstrained` task - ADDITIONAL DATA 2
@@ -33,7 +33,7 @@ This secondary data set is currently in incubation stage and after further testi
 
 This secondary corpus contains the Spanish translations of the Huqariq corpus [(Zevallos et al.,2022)](https://arxiv.org/abs/2207.05498). It is comprised of about 3 hours of Quechua audio with their transcriptions and translations into Spanish. The data can be easily downloaded directly from here: [Unconstrained QUE-SPA Additonal Audio 2](https://github.com/Llamacha/quechua_spanish_speech_translation_corpus).
 
-Please Note: Participants are not required to use this data but are free to use with the license below.
+*Please Note*: Participants are not required to use this data but are free to use with the license below.
 
 
 ## Citation 
