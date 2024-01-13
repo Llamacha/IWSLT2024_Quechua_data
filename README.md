@@ -18,7 +18,7 @@ In addition, we are making available a new corpus. This corpus is the Spanish tr
 
 ## Additional Audio data
 
-In addition to the 1 hour, 40 minutes of Quechua audio data aligned with Spanish translations, we also provided participants with a corpus of 48 hours of fully transcribed Quechua audio. All of this data comes from the filter Siminchik corpus  [link](https://drive.google.com/drive/folders/1rkGQwwgu5UdTZc-z56UCdYSOdVyOTtC4?usp=sharing).
+In addition to the 1 hour, 40 minutes of Quechua audio data aligned with Spanish translations, we also provided participants with a corpus of 48 hours of fully transcribed Quechua audio. All of this data comes from the filter Siminchik corpus  [link](https://drive.google.com/file/d/1ZwBE5LlwCHJaxkAw2IM97hkh-NFO-k0C/view?usp=sharing).
 
 Participants are not required to use any of this data.
 
