@@ -1,24 +1,21 @@
 # IWSLT2024 - Low-resource Speech Translation Track: Quechua-Spanish Parallel Corpus
 
-Repository for sharing the data in the Quechua language, one of the languages for the low-resource speech translation track at IWSLT 2024.
+Main repository for the sharing of Quechua-Spanish Speech Translation data as part of the low-resource shared task at [IWSLT 2024](https://iwslt.org/2024/low-resource).
 
-## Parallel data
+## Parallel data for the `constrained` task
 
+This corpus is a small extraction of the Siminchik corpus [(Cardenasetal.,2018)](http://lrec-conf.org/workshops/lrec2018/W14/pdf/book_of_proceedings.pdf#page=28), a Quechua-based corpus created from several radio audio recordings. The recordings have been transcribed and translated into Spanish. The total recording time for the `clean` speech data is 1 hour and 40 minutes. It can be found in the `que_spa_constrained` folder which contains three sub-folders: training, valid, and test. The test folder will be made visible after the submissions have been received.
 
-This corpus is a small fraction of the Siminchik corpus [(Cardenas et al., 2018)](http://lrec-conf.org/workshops/lrec2018/W14/pdf/book_of_proceedings.pdf#page=28) translated into Spanish. It comprises 1 hour, 40 minutes of clean speech in Quechua, translated into Spanish (que_spa_clean_siminchik_filter). This version contains a validation and test data set.
+The raw text transcriptions are located in `que_spa_constrained/<split>/txt/<split>.<lang>`.
 
-The raw text transcriptions are located in `que_spa_clean_siminchik_filter/<split>/txt/<split>.<lang>`.
-
-True-cased Spanish target translations are found in `que_spa_clean_siminchik_filter/<split>/txt/<split>.spa.tc`.
-
-hola mundo
+True-cased Spanish target translations are found in `que_spa_constrained/<split>/txt/<split>.spa.tc`.
 
 True-casing was done with a [sacremoses](https://github.com/alvations/sacremoses) Truecaser model trained on the Spanish side of WMT13 EN-ES.
 
-In addition, we are making available a new corpus. This corpus is the Spanish translation of the Siminchik and Huqariq corpus [(Zevallos et al., 2022)](https://arxiv.org/abs/2207.05498). It comprises 51 hours, 16 minutes of clean speech in Quechua, translated into Spanish. The corpus is located in [link](https://github.com/Llamacha/quechua_spanish_speech_translation_corpus).
 
 
 ## Additional Audio data
+In addition, we are making available a new corpus. This corpus is the Spanish translation of the Siminchik and Huqariq corpus [(Zevallos et al., 2022)](https://arxiv.org/abs/2207.05498). It comprises 51 hours, 16 minutes of clean speech in Quechua, translated into Spanish. The corpus is located in [link](https://github.com/Llamacha/quechua_spanish_speech_translation_corpus).
 
 In addition to the 1 hour, 40 minutes of Quechua audio data aligned with Spanish translations, we also provided participants with a corpus of 48 hours of fully transcribed Quechua audio. All of this data comes from the filter Siminchik corpus  [link](https://drive.google.com/file/d/1ZwBE5LlwCHJaxkAw2IM97hkh-NFO-k0C/view?usp=sharing).
 
