@@ -4,20 +4,21 @@ Repository for sharing the data in the Quechua language, one of the languages fo
 
 ## Parallel data
 
-This corpus is the Spanish translation of the Siminchik  and Huqariq corpus [(Zevallos et al., 2022)](https://arxiv.org/abs/2207.05498). It comprises 51 hours, 16 minutes of clean speech in Quechua, translated into Spanish (que_spa_clean). This version contains a validation and test dataset.
 
-The audio files are located in [link](https://drive.google.com/drive/folders/1Ne1cMvWSUnLzxeksT2OnOJSiPNBhuC7E?usp=sharing)
+This corpus is a small fraction of the Siminchik corpus [(Cardenas et al., 2018)](http://lrec-conf.org/workshops/lrec2018/W14/pdf/book_of_proceedings.pdf#page=28) translated into Spanish. It comprises 1 hour, 40 minutes of clean speech in Quechua, translated into Spanish (que_spa_clean_siminchik_filter). This version contains a validation and test data set.
 
-The raw text transcriptions are located in `que_spa_clean/<split>/txt/<split>.<lang>`.
+The raw text transcriptions are located in `que_spa_clean_siminchik_filter/<split>/txt/<split>.<lang>`.
 
-True-cased Spanish target translations are found in `que_spa_clean/<split>/txt/<split>.spa.tc`.
+True-cased Spanish target translations are found in `que_spa_clean_siminchik_filter/<split>/txt/<split>.spa.tc`.
 
 True-casing was done with a [sacremoses](https://github.com/alvations/sacremoses) Truecaser model trained on the Spanish side of WMT13 EN-ES.
+
+In addition, we are making available a new corpus. This corpus is the Spanish translation of the Siminchik and Huqariq corpus [(Zevallos et al., 2022)](https://arxiv.org/abs/2207.05498). It comprises 51 hours, 16 minutes of clean speech in Quechua, translated into Spanish. The corpus is located in [link](https://github.com/Llamacha/quechua_spanish_speech_translation_corpus).
 
 
 ## Additional Audio data
 
-In addition to the 1 hour, 40 minutes of Quechua audio data aligned with Spanish translations, we also provided participants with a corpus of 48 hours of fully transcribed Quechua audio. All of this data comes from the filter Siminchik corpus  [link](https://drive.google.com/drive/folders/1rkGQwwgu5UdTZc-z56UCdYSOdVyOTtC4?usp=sharing).
+In addition to the 1 hour, 40 minutes of Quechua audio data aligned with Spanish translations, we also provided participants with a corpus of 48 hours of fully transcribed Quechua audio. All of this data comes from the filter Siminchik corpus  [link](https://drive.google.com/file/d/1ZwBE5LlwCHJaxkAw2IM97hkh-NFO-k0C/view?usp=sharing).
 
 Participants are not required to use any of this data.
 
