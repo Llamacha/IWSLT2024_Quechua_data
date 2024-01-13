@@ -14,12 +14,27 @@ True-casing was done with a [sacremoses](https://github.com/alvations/sacremoses
 
 
 
-## Additional Audio data
-In addition, we are making available a new corpus. This corpus is the Spanish translation of the Siminchik and Huqariq corpus [(Zevallos et al., 2022)](https://arxiv.org/abs/2207.05498). It comprises 51 hours, 16 minutes of clean speech in Quechua, translated into Spanish. The corpus is located in [link](https://github.com/Llamacha/quechua_spanish_speech_translation_corpus).
+## Additional audio data for the `unconstrained` task - ADDITIONAL DATA 1
 
-In addition to the 1 hour, 40 minutes of Quechua audio data aligned with Spanish translations, we also provided participants with a corpus of 48 hours of fully transcribed Quechua audio. All of this data comes from the filter Siminchik corpus  [link](https://drive.google.com/file/d/1ZwBE5LlwCHJaxkAw2IM97hkh-NFO-k0C/view?usp=sharing).
+In addition to the 1 hour, 40 minutes of Quechua audio data aligned with Spanish translations, we also provided
+participants with a corpus of 48 hours of fully transcribed Quechua audio `without` translations for the `unconstrained`
+task. The audio data and corresponding transcriptions are a bigger extract from the Siminchik data set. The hope is that
+this data can be directly used for assistance in the development of speech recognition components for the `unconstrained`
+task.  The data can be easily downloaded directly fron here:  [Unconstrained QUE-SPA Additional Audio 1](https://drive.google.com/file/d/1ZwBE5LlwCHJaxkAw2IM97hkh-NFO-k0C/view?usp=sharing).
+
+Please Note: Participants are not required to use this data but are free to use with the license below.
+
+
+## Additional audio data `with translations` for the `unconstrained` task - ADDITIONAL DATA 2
 
 Participants are not required to use any of this data.
+
+This secondary data set is currently in incubation stage and after further testing will be used in next year's challenge. We offer this secondary audio date `with translations` as additional data for the `unconstrained` task. We are highly interested in feedback about this data, please contact John E. Ortega (j.ortega [email symbol] northeastern.edu) and Rodolfo Zevallos (rodolfojoel.zevallos [email symbol] upf.edu) if you plan on using this data. 
+
+This secondary corpus contains the Spanish translations of the Huqariq corpus [(Zevallos et al.,2022)](https://arxiv.org/abs/2207.05498). It is comprised of about 3 hours of Quechua audio with their transcriptions and translations into Spanish. The data can be easily downloaded directly from here: [Unconstrained QUE-SPA Additonal Audio 2](https://github.com/Llamacha/quechua_spanish_speech_translation_corpus).
+
+Please Note: Participants are not required to use this data but are free to use with the license below.
+
 
 ## Citation 
 
@@ -34,9 +49,9 @@ Participants are not required to use any of this data.
 ```
 
 
-## Additional Parallel Text data
+## Additional Parallel Machine Translation Text data for the `constrained` task
 
-As part of the constrained task, we allow parallel text from previous work.
+As part of the constrained task, we allow the use of Machine Transaltion parallel text from previous work.
 Participants are also not required to use this data.
 
 The data is found in this repository and called: "additional_mt_text".
@@ -65,4 +80,4 @@ All audio recordings are property of Siminchikkunarayku and [Llamacha](https://l
 
 ## Acknowledgements
 
-This work has been funded by AmericasNLP-2022 and Llamacha. Special thanks to Eva Mühlbauer, Maximilian Torres and Anku Kichka their support.
+Part of this work has been funded by AmericasNLP-2022, John E. Ortega, and Llamacha. Special thanks to Eva Mühlbauer, Maximilian Torres and Anku Kichka their support.
