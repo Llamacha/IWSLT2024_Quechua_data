@@ -24,7 +24,7 @@ task.  The data can be easily downloaded directly fron here:  [Unconstrained QUE
 
 **Please Note**: Participants are not required to use this data but are free to use with the license below.
 
-
+<!--  
 ## Additional audio data `with translations` for the `unconstrained` task - ADDITIONAL DATA 2
 
 Participants are not required to use any of this data.
@@ -35,6 +35,7 @@ This secondary corpus contains the Spanish translations of the Huqariq corpus [(
 
 **Please Note**: Participants are not required to use this data but are free to use with the license below.
 
+-->
 
 ## Citation 
 
