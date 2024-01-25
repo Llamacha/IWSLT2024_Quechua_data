@@ -4,7 +4,7 @@ Main repository for the sharing of Quechua-Spanish Speech Translation data as pa
 
 ## Parallel data for the `constrained` task
 
-This corpus is a small extraction of the Siminchik corpus [(Cardenasetal.,2018)](http://lrec-conf.org/workshops/lrec2018/W14/pdf/book_of_proceedings.pdf#page=28), a Quechua-based corpus created from several radio audio recordings. The recordings have been transcribed and translated into Spanish. The total recording time for the `clean` speech data is 1 hour and 40 minutes. It can be found in the `que_spa_constrained` folder which contains three sub-folders: training, valid, and test. The test folder will be made visible after the submissions have been received.
+This corpus is a small extraction of the Siminchik corpus [(Cardenas_et_al.,2018)](http://lrec-conf.org/workshops/lrec2018/W14/pdf/book_of_proceedings.pdf#page=28), a Quechua-based corpus created from several radio audio recordings. The recordings have been transcribed and translated into Spanish. The total recording time for the `clean` speech data is 1 hour and 40 minutes. It can be found in the `que_spa_constrained` folder which contains three sub-folders: training, valid, and test. The test folder will be made visible after the submissions have been received.
 
 The raw text transcriptions are located in `que_spa_constrained/<split>/txt/<split>.<lang>`.
 
